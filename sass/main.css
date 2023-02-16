@@ -1,0 +1,382 @@
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.index__nav {
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 17%;
+  padding-top: 1%;
+  border-bottom: 2px outset whitesmoke;
+  padding-bottom: 1%;
+}
+.index__nav img {
+  width: 5%;
+}
+.index__nav ul {
+  padding-left: 10%;
+  list-style: none;
+  display: flex;
+}
+.index__nav ul li {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 20%;
+}
+.index__nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+.index__nav ul li:hover {
+  cursor: pointer;
+  color: #28a745;
+  border-bottom: 4px solid #28a745;
+  padding-bottom: 10%;
+}
+.index__nav .ubication {
+  display: flex;
+  margin-left: 55%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  align-items: center;
+}
+.index__nav .ubication i {
+  position: relative;
+  right: 5%;
+}
+.index__nav a:hover {
+  color: #28a745;
+}
+
+.summer__index {
+  display: flex;
+  align-items: center;
+  padding-left: 14%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00754a;
+  padding-bottom: 2%;
+  border-bottom: 2px outset whitesmoke;
+}
+.summer__index div {
+  padding-left: 10%;
+}
+.summer__index div h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.summer__index div p {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  font-size: 1.5rem;
+}
+.summer__index div button {
+  margin-top: 10%;
+  margin-left: 25%;
+  padding: 5%;
+  color: #00754a;
+  background-color: transparent;
+  border: #00754a 1px solid;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.menu__title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  margin-left: 17%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.menu__title h3, .menu__title h1 {
+  margin-bottom: 1%;
+}
+.menu__title h3 {
+  font-size: 1rem;
+}
+.menu__title p {
+  margin-top: 3%;
+  font-size: 1.1rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.menu__title .menu__cafes {
+  padding-top: 3%;
+  display: flex;
+  padding-right: 20%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.menu__title .menu__cafes img {
+  background-color: #1e3932;
+  border-radius: 70%;
+}
+.menu__title .menu__cafes img:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px 10px #00754a;
+}
+
+.main__cafe {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main__cafe h1 {
+  color: white;
+  background-color: #1e3932;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 2.8rem;
+}
+.main__cafe .cafe__introduccion {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 100;
+}
+.main__cafe .cafe__introduccion p {
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.main__cafe .cafe__introduccion h3 {
+  margin-top: 3%;
+  font-size: 1.8rem;
+  background-color: #1e3932;
+  color: white;
+}
+.main__cafe .cafe__tipos h4 {
+  font-size: 1.2rem;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  background-color: #1e3932;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.main__cafe .cafe__tipos p {
+  font-size: 1.2rem;
+}
+
+.menu__experiencia {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu__experiencia h1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #1e3932;
+  color: white;
+  font-size: 3rem;
+}
+.menu__experiencia h3 {
+  margin-top: 3%;
+  color: #1e3932;
+  font-size: 1.6rem;
+}
+.menu__experiencia .container__experiencia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+.menu__experiencia .container__experiencia div {
+  margin-right: 5%;
+}
+.menu__experiencia .container__experiencia div p {
+  padding-top: 10%;
+  font-size: 1.3rem;
+  color: #1e3932;
+}
+.menu__experiencia .container__experiencia div h4 {
+  font-size: 1.8rem;
+  margin-right: 10%;
+  color: #00754a;
+}
+.menu__experiencia .container__experiencia2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-right: 4%;
+}
+.menu__experiencia .container__experiencia2 div {
+  margin-left: 4%;
+}
+.menu__experiencia .container__experiencia2 div p {
+  padding-top: 10%;
+  font-size: 1.3rem;
+  color: #1e3932;
+  padding-right: 10%;
+}
+.menu__experiencia .container__experiencia2 div h4 {
+  font-size: 1.8rem;
+  color: #00754a;
+  padding-right: 10%;
+}
+.menu__experiencia .container__experiencia2 img {
+  padding-right: 4%;
+}
+.menu__experiencia .container__experiencia3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-right: 4%;
+}
+.menu__experiencia .container__experiencia3 div {
+  margin-left: 5%;
+}
+.menu__experiencia .container__experiencia3 div p {
+  padding-top: 10%;
+  font-size: 1.3rem;
+  color: #1e3932;
+}
+.menu__experiencia .container__experiencia3 div h4 {
+  font-size: 1.8rem;
+  color: #00754a;
+}
+.menu__experiencia .container__experiencia3 button {
+  margin-top: 6%;
+  margin-left: 6%;
+  padding: 3%;
+  color: #00754a;
+  background-color: transparent;
+  border: #00754a 1px solid;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.footer__index {
+  margin-top: 3%;
+  margin-left: 10%;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer__index article ul {
+  list-style-type: none;
+}
+.footer__index article ul li {
+  margin-top: 10%;
+  color: grey;
+  cursor: pointer;
+}
+.footer__index .footer__index2, .footer__index .footer__index3 {
+  margin-left: 5%;
+}
+.footer__index .footer__index2 ul li, .footer__index .footer__index3 ul li {
+  list-style-type: none;
+  margin-top: 10%;
+  color: grey;
+}
+
+.footer__comidas {
+  margin-top: 5%;
+  padding-left: 15%;
+  padding-top: 2%;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 1px solid grey;
+}
+.footer__comidas article ul {
+  list-style-type: none;
+}
+.footer__comidas article ul li {
+  margin-top: 10%;
+  color: grey;
+  cursor: pointer;
+}
+.footer__comidas .footer__comidas2, .footer__comidas .footer__comidas3 {
+  margin-left: 5%;
+}
+.footer__comidas .footer__comidas2 ul li, .footer__comidas .footer__comidas3 ul li {
+  list-style-type: none;
+  margin-top: 10%;
+  color: grey;
+}
+
+.registro {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../../imagenes/fondo-starbucks.jpg);
+  padding-bottom: 16%;
+}
+.registro form {
+  display: flex;
+  padding-right: 10%;
+  padding-top: 13%;
+  flex-direction: column;
+  align-items: center;
+}
+.registro form h1 {
+  color: #28a745;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.registro form input {
+  height: 40px;
+  margin-top: 30%;
+  width: 200%;
+  border: 1px solid #28a745;
+  border-radius: 20px;
+  padding-left: 2%;
+}
+.registro form button {
+  margin-top: 15%;
+  width: 150%;
+  height: 50px;
+  background-color: transparent;
+  color: #28a745;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  border: 1px solid #28a745;
+  border-radius: 20px;
+}
+
+.logIn {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../../imagenes/fondo-starbucks.jpg);
+  padding-bottom: 21.2%;
+}
+.logIn form {
+  display: flex;
+  padding-right: 10%;
+  padding-top: 13%;
+  flex-direction: column;
+  align-items: center;
+}
+.logIn form h1 {
+  color: #28a745;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logIn form input {
+  height: 40px;
+  margin-top: 30%;
+  width: 200%;
+  border: 1px solid #28a745;
+  border-radius: 20px;
+  padding-left: 2%;
+}
+.logIn form button {
+  margin-top: 15%;
+  width: 150%;
+  height: 50px;
+  background-color: transparent;
+  color: #28a745;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  border: 1px solid #28a745;
+  border-radius: 20px;
+}/*# sourceMappingURL=main.css.map */

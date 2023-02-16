@@ -1,0 +1,72 @@
+.registro{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../imagenes/fondo-starbucks.jpg);
+    padding-bottom: 16%;
+        form{
+            display: flex;
+            padding-right: 10%;
+            padding-top: 13%;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                color: #28a745;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            input{
+                height: 40px;
+                margin-top: 30%;
+                width: 200%;
+                border: 1px solid #28a745;
+                border-radius: 20px;
+                padding-left: 2%;
+            }
+            button{
+                margin-top: 15%;
+                width: 150%;
+                height: 50px;
+                background-color: transparent;
+                color: #28a745;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 1.5rem;
+                border: 1px solid #28a745;
+                border-radius: 20px;
+            }
+        }
+}
+.logIn{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../imagenes/fondo-starbucks.jpg);
+    padding-bottom: 21.2%;
+        form{
+            display: flex;
+            padding-right: 10%;
+            padding-top: 13%;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                color: #28a745;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            input{
+                height: 40px;
+                margin-top: 30%;
+                width: 200%;
+                border: 1px solid #28a745;
+                border-radius: 20px;
+                padding-left: 2%;
+            }
+            button{
+                margin-top: 15%;
+                width: 150%;
+                height: 50px;
+                background-color: transparent;
+                color: #28a745;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 1.5rem;
+                border: 1px solid #28a745;
+                border-radius: 20px;
+            }
+        }
+}
